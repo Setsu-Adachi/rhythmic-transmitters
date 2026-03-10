@@ -165,12 +165,12 @@ body {
   aspect-ratio: 2/3;
   position: relative; overflow: hidden;
   cursor: pointer;
-  border-radius: 1.2rem;
+  border-radius: 8px;
   transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1), border-radius 0.4s ease, box-shadow 0.4s ease;
 }
 .planet-card:hover {
   transform: scale(1.04);
-  border-radius: 1.5rem;
+  border-radius: 10px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
   z-index: 2;
 }
@@ -233,7 +233,7 @@ body {
 
 .process-card {
   background: rgba(250,246,240,0.03); border: 1px solid rgba(250,246,240,0.05);
-  border-radius: 1.2rem;
+  border-radius: 8px;
   padding: 2rem 1.6rem;
   transition: background 0.5s ease, transform 0.5s ease;
   position: relative; overflow: hidden;
@@ -258,10 +258,10 @@ body {
 .mosaic { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 60px; gap: 1rem; }
 .mos {
   position: relative; overflow: hidden;
-  border-radius: 1.2rem;
+  border-radius: 8px;
   transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.6s ease;
 }
-.mos:hover { transform: scale(1.03); z-index: 2; box-shadow: 0 18px 50px rgba(44,36,32,0.12); border-radius: 1.5rem; }
+.mos:hover { transform: scale(1.03); z-index: 2; box-shadow: 0 18px 50px rgba(44,36,32,0.12); border-radius: 10px; }
 .mos .mfill { position: absolute; inset: 0; transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1); }
 .mos:hover .mfill { transform: scale(1.06); }
 
@@ -297,7 +297,7 @@ body {
 .collab-card {
   padding: 1.6rem; background: rgba(255,255,255,0.55); backdrop-filter: blur(4px);
   border: 1px solid rgba(44,36,32,0.04);
-  border-radius: 1.2rem;
+  border-radius: 8px;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   position: relative; overflow: hidden;
 }
